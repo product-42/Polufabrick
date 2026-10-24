@@ -166,7 +166,7 @@ label[for="customer-comment"] {
   top: 0;
   z-index: 50;
   border-bottom: 1px solid rgba(53, 39, 31, 0.18);
-  background: rgba(133, 140, 104, 0.95);
+background: rgb(85 86 83 / 45%);
   backdrop-filter: blur(16px);
 }
 
