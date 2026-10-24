@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Домашнее мясо и полуфабрикаты с доставкой"
+  />
+
+  <title>Домашняя еда — мясо и полуфабрикаты</title>
+
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">
+        <img class="logo-mark" src="/images/hero.png" alt="">
+        <span>Домашняя еда</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#meat">Мясо</a>
+        <a href="#semi-finished">Полуфабрикаты</a>
+        <a href="#delivery">Доставка</a>
+      </nav>
+
+      <button
+        class="cart-button"
+        id="open-cart"
+        type="button"
+        aria-label="Открыть корзину"
+        aria-expanded="false"
+        aria-controls="cart-panel"
+      >
+        <span class="cart-button__icon">🛒</span>
+
+        <span class="cart-button__data">
+          <strong id="header-total-price">0 ₽</strong>
+
+          <small>
+            <span id="header-total-weight">0 кг</span>
+            ·
+            <span id="cart-count">0</span> товаров
+          </small>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Домашние продукты с доставкой</p>
+
+          <h1>
+            Вкусная еда
+            <span>для вашей семьи</span>
+          </h1>
+
+          <p class="hero-description">
+            Отборное мясо, домашние полуфабрикаты и готовые блюда.
+            Выбирайте продукты онлайн — мы бережно доставим их к вам домой.
+          </p>
+
+          <a href="#semi-finished" class="primary-button">
+            Смотреть каталог
+            <span>→</span>
+          </a>
+        </div>
+
+        <div class="hero-card">
+          <img class="hego-card__logo"
+            src="images/herologo.png"
+            alt="Домашние мясные блюда"
+          />
+
+          <div class="hero-card__label">
+            <strong>Натуральный состав</strong>
+            <span>Готовим с заботой</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="meat">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">01 / Каталог</p>
+            <img src="/images/section__img.png" alt="">
+          </div>
+
+          <p>
+            Свежие продукты для домашних обедов,
+            праздничных блюд и заготовок.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <article
+            class="product-card"
+            data-id="beef-set"
+            data-name="Говядина мясными наборами"
+            data-type="meat"
+          >
+            <div class="product-image">
+              <img
+                src="images/nabor.jpeg"
+                alt="Говядина мясными наборами"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+
+              <span class="product-tag">Мясной набор</span>
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Говядина</p>
+
+              <h3>Говядина мясными наборами 11,5–13 кг</h3>
+
+              <p class="product-details">
+                Шейка на кости, окорок, ляжка с косточкой, рёбрышки.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price product-price--request">
+                    Уточняйте сумму
+                  </strong>
+
+                  <span class="product-weight">
+                    Вес уточняйте
+                  </span>
+                </div>
+
+                <button class="add-to-cart" type="button">
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="pork-quarter"
+            data-name="Свинина четвертями"
+            data-type="meat"
+          >
+            <div class="product-image">
+              <img
+                src="images/svininad.jpeg"
+                alt="Свинина четвертями"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+
+              <span class="product-tag">Под заказ</span>
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Свинина</p>
+
+              <h3>Свинина четвертями</h3>
+
+              <p class="product-details">
+                Передняя четверть, задняя четверть или полтуши.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price product-price--request">
+                    Уточняйте сумму
+                  </strong>
+
+                  <span class="product-weight">
+                    Вес уточняйте
+                  </span>
+                </div>
+
+                <button class="add-to-cart" type="button">
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="lamb"
+            data-name="Баранина романовской породы"
+            data-type="meat"
+          >
+            <div class="product-image">
+              <img
+                src="images/naborbor.jpeg"
+                alt="Баранина романовской породы"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Баранина</p>
+
+              <h3>Баранина романовской породы</h3>
+
+              <p class="product-details">
+                Тушка или половушка. Стоимость уточняется при заказе.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price product-price--request">
+                    Уточняйте сумму
+                  </strong>
+
+                  <span class="product-weight">
+                    Вес уточняйте
+                  </span>
+                </div>
+
+                <button class="add-to-cart" type="button">
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="beef-parts"
+            data-name="Говядина частями"
+            data-type="meat"
+          >
+            <div class="product-image">
+              <img
+                src="images/govid.jpeg"
+                alt="Говядина частями"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Говядина</p>
+
+              <h3>Говядина частями</h3>
+
+              <p class="product-details">
+                Ляжка, шейка, окорок, карбонат или рёбрышки.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price product-price--request">
+                    Уточняйте сумму
+                  </strong>
+
+                  <span class="product-weight">
+                    Вес уточняйте
+                  </span>
+                </div>
+
+                <button class="add-to-cart" type="button">
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="semi-finished">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">02 / Каталог</p>
+            <img src="/images/section__img2.png" alt="">
+          </div>
+
+          <p>
+            Домашние блюда, которые легко приготовить
+            в удобное для вас время.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <article
+            class="product-card"
+            data-id="smoked-chicken"
+            data-name="Курочка копчёная (половинки)"
+            data-price="550"
+            data-weight="0.95"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/chicken.png"
+                alt="Курочка копчёная"
+              />
+                <img class="mini__img" src="images/mini__img.png" alt="">
+              <span class="product-tag">Популярное</span>
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Копчёности</p>
+
+              <h3>Курочка копчёная (половинки)</h3>
+
+              <p class="product-details">
+                Половинки, вес 0,8–1,1 кг.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">550 ₽</strong>
+                  <span class="product-weight">0,95 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="farsh"
+            data-name="Фарш мясной (нежирный)"
+            data-price="550"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/farsh.png"
+                alt="Фарш мясной"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Свежий продукт</p>
+
+              <h3>Фарш мясной (нежирный)</h3>
+
+              <p class="product-details">
+                Свежий мясной фарш.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">550 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="beef-stew"
+            data-name="Рагу говяжье"
+            data-price="750"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/ragu.jpeg"
+                alt="Рагу говяжье"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Мясные блюда</p>
+
+              <h3>Рагу говяжье</h3>
+
+              <p class="product-details">
+                Мясное рагу для тушения.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">750 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="beef-liver"
+            data-name="Печень говяжья"
+            data-price="450"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/liver.jpeg"
+                alt="Печень говяжья"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Свежий продукт</p>
+
+              <h3>Печень говяжья</h3>
+
+              <p class="product-details">
+                Натуральная говяжья печень.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">450 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="salo"
+            data-name="Сальце солёное в рассоле"
+            data-price="1400"
+            data-weight="2.5"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/salo.jpg"
+                alt="Сальце солёное"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Домашняя засолка</p>
+
+              <h3>Сальце солёное в рассоле</h3>
+
+              <p class="product-details">
+                В трёхлитровой банке.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">1400 ₽</strong>
+                  <span class="product-weight">2,5 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="belyashi"
+            data-name="Беляши жареные"
+            data-price="560"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/belyashi.jpg"
+                alt="Беляши жареные"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Выпечка</p>
+
+              <h3>Беляши жареные</h3>
+
+              <p class="product-details">
+                7 штук на килограмм.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">560 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="pelmeni"
+            data-name="Пельмени «Любительские»"
+            data-price="550"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/pelmeni-lub.jpg"
+                alt="Пельмени «Любительские»"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Заморозка</p>
+
+              <h3>Пельмени «Любительские»</h3>
+
+              <p class="product-details">
+                Говядина, свинина и лук.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">550 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="manti"
+            data-name="Манты из говядины"
+            data-price="550"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/manti-beef.jpeg"
+                alt="Манты из говядины"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Заморозка</p>
+
+              <h3>Манты из говядины</h3>
+
+              <p class="product-details">
+                Домашние манты с говядиной.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">550 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="vareniki"
+            data-name="Вареники"
+            data-price="310"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/vareniki.jpg"
+                alt="Вареники"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Заморозка</p>
+
+              <h3>Вареники</h3>
+
+              <p class="product-details">
+                Картошка, шкварки и лук.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">310 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="cutlets"
+            data-name="Котлеты"
+            data-price="460"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/cutlets.jpg"
+                alt="Котлеты"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Домашний рецепт</p>
+
+              <h3>Котлеты</h3>
+
+              <p class="product-details">
+                Говядина и свинина.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">460 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="tefteli"
+            data-name="Тефтели"
+            data-price="410"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/tefteli.jpeg"
+                alt="Тефтели"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Домашний рецепт</p>
+
+              <h3>Тефтели</h3>
+
+              <p class="product-details">
+                Говядина и свинина.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">410 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-id="lazy-cabbage-rolls"
+            data-name="Ленивые голубцы"
+            data-price="350"
+            data-weight="1"
+            data-type="product"
+          >
+            <div class="product-image">
+              <img
+                src="images/lazy-cabbage-rolls.jpeg"
+                alt="Ленивые голубцы"
+              />
+              <img class="mini__img" src="images/mini__img.png" alt="">
+            </div>
+
+            <div class="product-content">
+              <p class="product-category">Домашний рецепт</p>
+
+              <h3>Ленивые голубцы</h3>
+
+              <p class="product-details">
+                Говядина, свинина и капуста.
+              </p>
+
+              <div class="product-bottom">
+                <div>
+                  <strong class="product-price">350 ₽</strong>
+                  <span class="product-weight">1 кг</span>
+                </div>
+
+                <div class="product-actions">
+                  <div class="quantity-control">
+                    <button
+                      class="quantity-minus"
+                      type="button"
+                      aria-label="Уменьшить количество"
+                    >
+                      −
+                    </button>
+
+                    <span class="quantity-value">1</span>
+
+                    <button
+                      class="quantity-plus"
+                      type="button"
+                      aria-label="Увеличить количество"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart" type="button">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery-section" id="delivery">
+      <div class="container delivery-grid">
+        <div>
+          <p class="section-number">03 / Доставка</p>
+
+          <h2>Привезём продукты к вам домой</h2>
+
+          <p class="delivery-description">
+            Доставка осуществляется в следующие города:
+          </p>
+        </div>
+
+        <ul class="cities-list">
+          <li>Ленинск-Кузнецк</li>
+          <li>Полысаево</li>
+          <li>Белово</li>
+          <li>Беловский район</li>
+          <li>Гурьевск</li>
+          <li>Киселевск</li>
+          <li>Прокопьевск</li>
+          <li>Новокузнецк</li>
+          <li>Мыски</li>
+          <li>Междуреченск</li>
+          <li>Осинники</li>
+          <li>Кемерово</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <strong>Домашняя еда</strong>
+      <span>Свежие продукты для вашего стола</span>
+    </div>
+  </footer>
+
+  <!-- Overlay корзины -->
+  <div
+    class="panel-overlay"
+    id="cart-overlay"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Overlay доставки -->
+  <div
+    class="panel-overlay"
+    id="delivery-overlay"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Overlay оформления заказа -->
+  <div
+    class="panel-overlay"
+    id="checkout-overlay"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Панель корзины -->
+  <aside
+    class="side-panel cart-panel"
+    id="cart-panel"
+    aria-hidden="true"
+    aria-labelledby="cart-title"
+  >
+    <div class="panel-header">
+      <div>
+        <p class="panel-label">Ваш заказ</p>
+        <h2 id="cart-title">Корзина</h2>
+      </div>
+
+      <button
+        class="close-panel"
+        id="close-cart"
+        type="button"
+        aria-label="Закрыть корзину"
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="panel-body">
+      <p
+        class="empty-cart-message"
+        id="empty-cart-message"
+      >
+        Корзина пока пуста
+      </p>
+
+      <div
+        class="cart-items"
+        id="cart-items"
+      ></div>
+    </div>
+
+    <div class="panel-footer">
+      <div
+        class="delivery-status"
+        id="delivery-status"
+      >
+        Добавьте товары для расчёта доставки
+      </div>
+
+      <div class="total-row">
+        <span>Сумма</span>
+        <strong id="cart-total-price">0 ₽</strong>
+      </div>
+
+      <div class="total-row">
+        <span>Общий вес</span>
+        <strong id="cart-total-weight">0 кг</strong>
+      </div>
+
+      <button
+        class="checkout-button"
+        id="checkout-button"
+        type="button"
+      >
+        Оформить заказ →
+      </button>
+    </div>
+  </aside>
+
+  <!-- Панель выбора города -->
+  <aside
+    class="side-panel delivery-panel"
+    id="delivery-panel"
+    aria-hidden="true"
+    aria-labelledby="delivery-title"
+  >
+    <div class="panel-header">
+      <div>
+        <p class="panel-label">Шаг 1 из 2</p>
+        <h2 id="delivery-title">Условия доставки</h2>
+      </div>
+
+      <button
+        class="close-panel"
+        id="close-delivery"
+        type="button"
+        aria-label="Закрыть условия доставки"
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="panel-body panel-body--padded">
+      <p class="panel-description">
+        Выберите город, в который нужно доставить заказ.
+      </p>
+
+      <ul class="delivery-cities">
+        <li>Ленинск-Кузнецк</li>
+        <li>Полысаево</li>
+        <li>Белово</li>
+        <li>Беловский район</li>
+        <li>Гурьевск</li>
+        <li>Киселевск</li>
+        <li>Прокопьевск</li>
+        <li>Новокузнецк</li>
+        <li>Мыски</li>
+        <li>Междуреченск</li>
+        <li>Осинники</li>
+        <li>Кемерово</li>
+      </ul>
+
+      <label
+        class="city-field"
+        for="city"
+      >
+        <span>Ваш город</span>
+
+        <select
+          id="city"
+          name="city"
+        >
+          <option value="">Выберите город</option>
+          <option value="Ленинск-Кузнецк">Ленинск-Кузнецк</option>
+          <option value="Полысаево">Полысаево</option>
+          <option value="Белово">Белово</option>
+          <option value="Беловский район">Беловский район</option>
+          <option value="Гурьевск">Гурьевск</option>
+          <option value="Киселевск">Киселевск</option>
+          <option value="Прокопьевск">Прокопьевск</option>
+          <option value="Новокузнецк">Новокузнецк</option>
+          <option value="Мыски">Мыски</option>
+          <option value="Междуреченск">Междуреченск</option>
+          <option value="Осинники">Осинники</option>
+          <option value="Кемерово">Кемерово</option>
+        </select>
+      </label>
+
+      <p
+        class="field-error"
+        id="city-error"
+        role="alert"
+      ></p>
+    </div>
+
+    <div class="panel-footer">
+      <button
+        class="checkout-button"
+        id="delivery-next"
+        type="button"
+      >
+        Далее →
+      </button>
+    </div>
+  </aside>
+
+  <!-- Панель оформления заказа -->
+  <aside
+    class="side-panel checkout-panel"
+    id="checkout-panel"
+    aria-hidden="true"
+    aria-labelledby="checkout-title"
+  >
+    <div class="panel-header">
+      <div>
+        <p class="panel-label">Шаг 2 из 2</p>
+        <h2 id="checkout-title">Оформление заказа</h2>
+      </div>
+
+      <button
+        class="close-panel"
+        id="close-checkout"
+        type="button"
+        aria-label="Закрыть оформление заказа"
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="panel-body panel-body--padded">
+      <form
+        id="order-form"
+        novalidate
+      >
+        <label
+          class="form-field"
+          for="customer-name"
+        >
+          <span>Имя</span>
+
+          <input
+            id="customer-name"
+            name="name"
+            type="text"
+            placeholder="Ваше имя"
+            autocomplete="name"
+            required
+          />
+
+          <small
+            class="field-error"
+            data-error-for="name"
+          ></small>
+        </label>
+
+        <label
+          class="form-field"
+          for="customer-phone"
+        >
+          <span>Телефон</span>
+
+          <input
+            id="customer-phone"
+            name="phone"
+            type="tel"
+            placeholder="+7 (___) ___-__-__"
+            autocomplete="tel"
+            required
+          />
+
+          <small
+            class="field-error"
+            data-error-for="phone"
+          ></small>
+        </label>
+
+        <label
+          class="form-field"
+          for="customer-address"
+        >
+          <span>Адрес доставки</span>
+
+          <input
+            id="customer-address"
+            name="address"
+            type="text"
+            placeholder="Улица, дом, квартира"
+            autocomplete="street-address"
+            required
+          />
+
+          <small
+            class="field-error"
+            data-error-for="address"
+          ></small>
+        </label>
+
+        <label
+          class="form-field"
+          for="selected-city"
+        >
+          <span>Город</span>
+
+          <input
+            id="selected-city"
+            name="selected-city"
+            type="text"
+            readonly
+          />
+        </label>
+
+        <div class="form-field form-field--comment">
+          <label for="customer-comment">
+            Ваши пожелания к заказу
+            <span class="optional-label">
+              (необязательно)
+            </span>
+          </label>
+
+          <textarea
+            id="customer-comment"
+            name="comment"
+            rows="3"
+            maxlength="500"
+            placeholder="Например: оставить у двери, не класть специи, нужен чек"
+          ></textarea>
+
+          <small class="comment-hint">
+            До 500 символов
+          </small>
+        </div>
+
+        <button
+          class="submit-order"
+          type="submit"
+        >
+          Отправить заказ
+        </button>
+
+        <p
+          class="form-message"
+          id="form-message"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </form>
+    </div>
+  </aside>
+   <script src="script.js" defer></script>
+</body>
+</html>
