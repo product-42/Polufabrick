@@ -1186,3 +1186,12 @@ label[for="customer-comment"] {
     left: 143px;
 }
 }
+@media (max-width: 325px) {
+    .mini__img {
+        position: absolute;
+        height: 19px;
+        width: 19px;
+        top: 10px;
+        left: 123px;
+    }
+  }
