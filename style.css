@@ -239,7 +239,7 @@ background: rgb(85 86 83 / 45%);
   border-radius: 999px;
   padding: 9px 12px 9px 16px;
   color: var(--cream);
-  background: var(--chocolate);
+  background: rgb(85 86 83 / 45%);
   box-shadow: var(--shadow-small);
   transition:
     background var(--transition),
@@ -594,7 +594,7 @@ background: rgb(85 86 83 / 45%);
   border: 0;
   border-radius: 999px;
   color: var(--cream);
-  background: var(--chocolate);
+  background: rgb(4 4 4 / 45%);
   font-weight: 800;
   transition:
     background var(--transition),
